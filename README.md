@@ -117,10 +117,17 @@ Average rating and number of reviews are different popularity standards, and wit
 
 ## Deployment
 <img src="/images/hybrid_deploy.gif" alt="hybrid_deploy" width=600> <br/>
+Integrate Top 10 recommendation from three distance calculation approaches, then generate Top N recommendation sorted by various criterias, e.g. average rating or number of reviews
 
+## Detailed Presentation
+* Check out complete workflow with [Jupyter Notebook](./code).
+* Check out complete code of [Flask Deployment](./flask_deployment).
 
 ## Skills Acquired
-
+* Pandas: feature extraction, data cleaning and data imputation
+* Keras: image visualization(process image files to array and show them according to recommended recipes)
+* Matplotlib: using GridSpec to do subplots visualization within a for loop
+* Flask: deployment of recommender engine into web application
 
 ## Acknowledgements
 Subplots code reference from Stack Overflow user [armatita](https://stackoverflow.com/questions/46713186/matplotlib-loop-make-subplot-for-each-category?rq=1) and [Nirmal](https://stackoverflow.com/questions/25862026/turn-off-axes-in-subplots). Thank you coders for sharing your experience! =]
