@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nutrition Recommender</title>
+    </head>
+
+    <body>
+        <h1>Nutrition Recommender</h1>
+        
+        <div>
+            <form action="/recommendation" method="POST">
+                <label>Recipe ID</label> 
+                <input type="text" name="RecipeID">
+                <br>
+                <label>Sort by</label>
+                <input type="text" name="Sortby"> (aver_rate or review_nums)
+                <br>
+                <label>Top N Recommendation</label>
+                <input type="text" name="TopN"> (max: 30)
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </body>
+</html>
