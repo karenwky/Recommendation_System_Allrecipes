@@ -112,6 +112,15 @@ def nutrition_hybrid_recommender(recipe_id, sort_order, N):
    ![hybrid_rn](/images/hybrid_rn.png) <br/>
    <img src="/images/nutrition_rn.png" alt="nutrition_rn" width=550> <br/>
    <img src="/images/topN_rn.png" alt="topN_rn" width=400> 
+     
+Average rating and number of reviews are different popularity standards, and with these two sorting criterias similar results are generated. It is surprised that with nutrition information, even alcohol recipes can be detected and recommended. 
+
+## Deployment
+<img src="/images/hybrid_deploy.gif" alt="hybrid_deploy" width=600> <br/>
+
+
+## Skills Acquired
+
 
 ## Acknowledgements
 Subplots code reference from Stack Overflow user [armatita](https://stackoverflow.com/questions/46713186/matplotlib-loop-make-subplot-for-each-category?rq=1) and [Nirmal](https://stackoverflow.com/questions/25862026/turn-off-axes-in-subplots). Thank you coders for sharing your experience! =]
