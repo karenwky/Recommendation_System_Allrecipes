@@ -125,7 +125,7 @@ Integrate Top 10 recommendation from three distance calculation approaches, then
 
 ## Skills Acquired
 * Pandas: feature extraction, data cleaning and data imputation
-* Keras: image visualization(process image files to array and show them according to recommended recipes)
+* Keras: image data loading(process image files to array and show them according to recommended recipes)
 * Matplotlib: using GridSpec to do subplots visualization within a for loop
 * Flask: deployment of recommender engine into web application
 
